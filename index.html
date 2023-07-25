@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Random Password Generator</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/iziToast.min.css">
+	<script src="https://kit.fontawesome.com/7a93f8c7d6.js" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+	<div class="container">
+		<h2>Random Password Generator</h2>
+		<input type="text" name="" placeholder="New password" id="password" readonly>
+		<table>
+			<th>
+				<button id="button" class="btn1" onclick="genPassword()">Generate</button>
+			</th>
+			<th>
+				<button id="button" class="btn2" onclick="copyPassword()">Copy</button>
+			</th>
+		</table>
+		<div class="info-autor">
+			<p>by:
+				<a href="https://github.com/JPichardo99" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>
+					Jesús Pichardo
+				</a>
+			</p>
+		</div>
+	</div>
+
+	<script src="js/script.js"></script>
+	<script src="js/index-scrollreveal.js"></script>
+	<script src="js/iziToast.min.js" type="text/javascript"></script>
+</body>
+
+</html>
